@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace HelloWorld
 {
-    class Program
+    public class Person
     {
-        static void Main(string[] args)
-        {
-            //Console.WriteLine("Hello World!");
-        }
+        public string Name { get; set; }
     }
 }
